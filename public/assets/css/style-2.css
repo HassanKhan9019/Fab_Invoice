@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.save-button {
+    position: absolute;
+    top: 30px;
+    right: 130px;
+    background-color: rgb(2, 2, 2);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.export-button {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    background-color: rgb(5, 1, 1);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.add-button {
+    position: absolute;
+    top: 30px;
+    left: 40px; /* Position the "Add Row" button to the left */
+    background-color: rgb(2, 2, 2);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.remove-button {
+    position: absolute;
+    top: 30px;
+    left: 150px; /* Position the "Remove Row" button next to "Add Row" */
+    background-color: rgb(2, 2, 2);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.invoice-container {
+    max-width: 77vw;
+    height: auto;
+    margin: auto;
+    margin-top: 10%;
+    border: 1px solid #e0dbdb;
+    padding: 10px;
+    color: #011F7F; 
+}
+
+.header-img {
+    width: 100%;          
+    height: auto;        
+    object-fit: cover;  
+}
+
+.service-items {
+    position: relative;
+    top: 60%;
+    left: 65%;
+}
+
+/* table container */
+
+.table-container {
+    width: 100%;
+    border-collapse: collapse;
+    color: #011F7F; 
+}
+
+.table-container th,
+.table-container td {
+    border: 1px solid #000000;
+    padding: 5px;
+    text-align: center;
+}
+
+.table-container th {
+    background-color: #ed9a1e;
+    font-size: 18px;
+}
+
+.table-container tr {
+    font-size: 15px;
+}
+
+
+.table-container tr:nth-child(even) {
+    background-color: #ebebeb;
+}
+
+.table-container tr:nth-child(odd) {
+    background-color: #f7f5f5;
+}
+
+
+.footer-bg{
+    background-color: #011F7F;
+}
+
+
+.footer {
+    text-align: center; 
+    font-size: 18px;
+    font-weight: bold;
+    color: #ed9a1e;
+
+}
+
+.footer>p,ul,li{
+    color: #ed9a1e;
+}
+
+.footer ul {
+    list-style-type: none; 
+    text-align: center;
+}
+
+
+.table-container-2 {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container-2 td {
+    border: 1px solid #6c6b6b;
+    padding: 5px;
+    text-align: center;
+}
+
+.table-container-2 tr{
+    font-size: 17px;
+}
+
+.table-container-2 tr:nth-child(1),
+.table-container-2 tr:nth-child(4) {
+    background-color: #ed9a1e;
+    color: #011F7F;
+
+}
+
+.table-container-2 tr:nth-child(2),
+.table-container-2 tr:nth-child(3) {
+    background-color: #ffffff !important;
+    
+}
+
+
+/* Foms */
+
+/* Form input width */
+
+.custom-width {
+    width: 120px;
+}
+
+.custom-width-1 {
+    width: 200px;
+}
+
+.custom-width-2{
+    width: 438px;
+}
+
+.custom-width-3 {
+    width: 130px;
+}
+
+
+/* For labels */
+
+label {
+    font-size: 17px;
+    font-weight: 496;
+}
+
+/* for checkboxes */
+
+.form-check-input{
+  position: relative;
+  bottom: 1px;
+  left: 12px;
+}
+
+.form-check-label{
+    font-size: 13.5px!important;
+    font-weight: 500;
+}
+
+.form-check-2{
+    padding: -2px;
+    position: relative;
+    bottom: 1px;
+    left: 0px;
+}
+
+/* invoice table */
+
+.custom-width-4{
+    width: 100px;
+}
+
+.custom-me-postive-1 {
+    margin-right: 40px; 
+}
+
+.custom-me-postive-2 {
+    margin-right: 30px; 
+}
+
+.custom-me-postive-3 {
+    margin-right: 40px; 
+}
+
+
+  .label-custom-width {
+    width: 80px !important; 
+    
+  }
+
+  .custom-select {
+    appearance: none; 
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    background-color: transparent;
+    border: 1px solid transparent; /* Border style */
+    padding: 0px 0px; /* Padding */
+    font-size: 13px; /* Font size */
+    color: #011F7F; /* Text color */
+    font-weight: 500;
+    margin-top: 1px;
+    cursor: pointer; /* Pointer cursor */
+  }
+
+  .custom-select:focus {
+    border-color: #031d91; /* Highlight border on focus */
+    outline: none; /* Removes outline */
+  }
+
+ 
